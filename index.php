@@ -40,10 +40,10 @@
       </header>
       <div>
         <?php foreach($courses as $course): ?>
-          <div>
-            <?php echo $course['name'] ?>
-          </div>
-        <?php endforeach; ?>
+          <ul>
+            <li><?php echo $course['name'] ?></li>
+          </ul>
+        <?i endforeach; ?>
       </div>
     </body>
     <footer>Copy &copy; WOTR</footer>
